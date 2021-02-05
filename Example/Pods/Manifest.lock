@@ -1,0 +1,16 @@
+PODS:
+  - VeritranSDK (0.5.0)
+
+DEPENDENCIES:
+  - VeritranSDK (from `../`)
+
+EXTERNAL SOURCES:
+  VeritranSDK:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  VeritranSDK: 21c53f163a381bd1237b82c775b6bffb2b675fe3
+
+PODFILE CHECKSUM: d39ea04c80834e2ccb28d20b3e781289d07a80f9
+
+COCOAPODS: 1.9.3

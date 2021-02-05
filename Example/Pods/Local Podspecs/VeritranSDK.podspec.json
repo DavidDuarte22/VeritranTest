@@ -1,0 +1,22 @@
+{
+  "name": "VeritranSDK",
+  "version": "0.5.0",
+  "summary": "A short description of VeritranSDK.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/davito.duarte.22@gmail.com/VeritranSDK",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "davito.duarte.22@gmail.com": "david.duarte@endava.com"
+  },
+  "source": {
+    "git": "https://github.com/davito.duarte.22@gmail.com/VeritranSDK.git",
+    "tag": "0.5.0"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source_files": "VeritranSDK/Classes/**/*"
+}

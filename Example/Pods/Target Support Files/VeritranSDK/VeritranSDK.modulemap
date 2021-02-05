@@ -1,0 +1,6 @@
+framework module VeritranSDK {
+  umbrella header "VeritranSDK-umbrella.h"
+
+  export *
+  module * { export * }
+}

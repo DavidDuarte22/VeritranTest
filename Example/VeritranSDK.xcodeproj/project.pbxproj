@@ -1,0 +1,1047 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		56F1F4B531F19A966746F12E /* Pods_VeritranSDK_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 087BAFCDEF2B810B9B948AE8 /* Pods_VeritranSDK_Example.framework */; };
+		607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD51AFB9204008FA782 /* AppDelegate.swift */; };
+		607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDC1AFB9204008FA782 /* Images.xcassets */; };
+		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
+		607FACEC1AFB9204008FA782 /* TestsUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* TestsUser.swift */; };
+		B6CD41A70615DF294638039C /* Pods_VeritranSDK_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ADC4B0FFA7B28962B3504751 /* Pods_VeritranSDK_Tests.framework */; };
+		DE382F4325AB589C00592287 /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE382F4225AB589C00592287 /* Colors.swift */; };
+		DE382F4D25AB98CD00592287 /* LoginRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE382F4C25AB98CD00592287 /* LoginRouter.swift */; };
+		DE382F5125AB9A5700592287 /* LoginModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE382F5025AB9A5700592287 /* LoginModule.swift */; };
+		DE382F5625AB9BA600592287 /* LoginInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE382F5525AB9BA600592287 /* LoginInteractor.swift */; };
+		DE382F5C25AB9C3600592287 /* SessionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE382F5B25AB9C3600592287 /* SessionManager.swift */; };
+		DE382F6725ABAA4300592287 /* RegisterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE382F6625ABAA4300592287 /* RegisterView.swift */; };
+		DE382F6B25ABAA5000592287 /* RegisterViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE382F6A25ABAA5000592287 /* RegisterViewModel.swift */; };
+		DE382F6F25ABAA5A00592287 /* RegisterRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE382F6E25ABAA5A00592287 /* RegisterRouter.swift */; };
+		DE382F7325ABAA6400592287 /* RegisterInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE382F7225ABAA6400592287 /* RegisterInteractor.swift */; };
+		DE382F7725ABAA6F00592287 /* RegisterModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE382F7625ABAA6F00592287 /* RegisterModule.swift */; };
+		DE382F9525ABC20800592287 /* HomeModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE382F9425ABC20800592287 /* HomeModule.swift */; };
+		DE382F9925ABC21100592287 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE382F9825ABC21100592287 /* HomeView.swift */; };
+		DE382F9D25ABC21A00592287 /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE382F9C25ABC21A00592287 /* HomeViewModel.swift */; };
+		DE382FA125ABC22200592287 /* HomeRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE382FA025ABC22200592287 /* HomeRouter.swift */; };
+		DE382FA525ABC23200592287 /* HomeInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE382FA425ABC23200592287 /* HomeInteractor.swift */; };
+		DE382FAF25AC7A9C00592287 /* AccountModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE382FAE25AC7A9C00592287 /* AccountModule.swift */; };
+		DE382FB525AC7AAB00592287 /* AccountView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE382FB425AC7AAB00592287 /* AccountView.swift */; };
+		DE382FB925AC7AB700592287 /* AccountViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE382FB825AC7AB700592287 /* AccountViewModel.swift */; };
+		DE382FBE25AC7AC700592287 /* AccountRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE382FBD25AC7AC700592287 /* AccountRouter.swift */; };
+		DE382FC225AC7AD100592287 /* AccountInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE382FC125AC7AD100592287 /* AccountInteractor.swift */; };
+		DE382FE425AC932000592287 /* DepositModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE382FE325AC932000592287 /* DepositModule.swift */; };
+		DE382FF025ACD25E00592287 /* DepositInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE382FEF25ACD25E00592287 /* DepositInteractor.swift */; };
+		DE382FF425ACD26600592287 /* DepositRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE382FF325ACD26600592287 /* DepositRouter.swift */; };
+		DE382FF825ACD27100592287 /* DepositViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE382FF725ACD27100592287 /* DepositViewModel.swift */; };
+		DE382FFC25ACD27B00592287 /* DepositView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE382FFB25ACD27B00592287 /* DepositView.swift */; };
+		DE38300525ACD2E400592287 /* WithdrawModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE38300425ACD2E400592287 /* WithdrawModule.swift */; };
+		DE38300B25ACD2F800592287 /* WithdrawInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE38300A25ACD2F800592287 /* WithdrawInteractor.swift */; };
+		DE38300F25ACD30D00592287 /* WithdrawView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE38300E25ACD30D00592287 /* WithdrawView.swift */; };
+		DE38301325ACD31800592287 /* WithdrawViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE38301225ACD31800592287 /* WithdrawViewModel.swift */; };
+		DE38301725ACD32500592287 /* WithdrawRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE38301625ACD32500592287 /* WithdrawRouter.swift */; };
+		DE38301B25ACE91F00592287 /* Observable.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE38301A25ACE91F00592287 /* Observable.swift */; };
+		DE38302C25ADDBF600592287 /* TestsTransfer.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE38302B25ADDBF600592287 /* TestsTransfer.swift */; };
+		DE38303625ADE3B200592287 /* TransferModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE38303525ADE3B200592287 /* TransferModule.swift */; };
+		DE38303A25ADE3BE00592287 /* TransferView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE38303925ADE3BE00592287 /* TransferView.swift */; };
+		DE38303E25ADE3C600592287 /* TransferViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE38303D25ADE3C600592287 /* TransferViewModel.swift */; };
+		DE38304225ADE3CE00592287 /* TransferRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE38304125ADE3CE00592287 /* TransferRouter.swift */; };
+		DE38304625ADE3D700592287 /* TransferInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE38304525ADE3D700592287 /* TransferInteractor.swift */; };
+		DE38304B25AE0D1D00592287 /* Transfer.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE38304A25AE0D1D00592287 /* Transfer.swift */; };
+		DEA27B3425A787D600484C83 /* TestsAccount.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEA27B3325A787D600484C83 /* TestsAccount.swift */; };
+		DEA27B6B25A8F1ED00484C83 /* TestsValidators.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEA27B6A25A8F1ED00484C83 /* TestsValidators.swift */; };
+		DEBF49BD25B87FAC001B0C45 /* TestDepositInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEBF49BC25B87FAC001B0C45 /* TestDepositInteractor.swift */; };
+		DEBF49C525B88139001B0C45 /* DepositInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE382FEF25ACD25E00592287 /* DepositInteractor.swift */; };
+		DEDDCB1C25AB4012003A8A5F /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEDDCB1B25AB4012003A8A5F /* LoginView.swift */; };
+		DEDDCB2225AB4218003A8A5F /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEDDCB2125AB4218003A8A5F /* LoginViewModel.swift */; };
+		DEDDCB2825AB4346003A8A5F /* UIView+extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEDDCB2725AB4346003A8A5F /* UIView+extension.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		607FACE61AFB9204008FA782 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 607FACC81AFB9204008FA782 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 607FACCF1AFB9204008FA782;
+			remoteInfo = VeritranSDK;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		087BAFCDEF2B810B9B948AE8 /* Pods_VeritranSDK_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VeritranSDK_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		382D3B7FCDD1638E4236F4C6 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		607FACD01AFB9204008FA782 /* VeritranSDK_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VeritranSDK_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		607FACD51AFB9204008FA782 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		607FACDC1AFB9204008FA782 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		607FACDF1AFB9204008FA782 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		607FACE51AFB9204008FA782 /* VeritranSDK_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VeritranSDK_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		607FACEB1AFB9204008FA782 /* TestsUser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestsUser.swift; sourceTree = "<group>"; };
+		8ADE408AA34BE6964F21C247 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		8D2D5189AD6DF8407BA8E97A /* Pods-VeritranSDK_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VeritranSDK_Example.debug.xcconfig"; path = "Target Support Files/Pods-VeritranSDK_Example/Pods-VeritranSDK_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		ADC4B0FFA7B28962B3504751 /* Pods_VeritranSDK_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VeritranSDK_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B07597B5A79EED4F84F32877 /* Pods-VeritranSDK_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VeritranSDK_Tests.debug.xcconfig"; path = "Target Support Files/Pods-VeritranSDK_Tests/Pods-VeritranSDK_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		B44527066DF2E51D75A5FD90 /* VeritranSDK.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = VeritranSDK.podspec; path = ../VeritranSDK.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		BFBC6AA846075BF7CC08B6DC /* Pods-VeritranSDK_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VeritranSDK_Tests.release.xcconfig"; path = "Target Support Files/Pods-VeritranSDK_Tests/Pods-VeritranSDK_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		D9D26EB81FB3D3D1F39C63A1 /* Pods-VeritranSDK_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VeritranSDK_Example.release.xcconfig"; path = "Target Support Files/Pods-VeritranSDK_Example/Pods-VeritranSDK_Example.release.xcconfig"; sourceTree = "<group>"; };
+		DE382F4225AB589C00592287 /* Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
+		DE382F4C25AB98CD00592287 /* LoginRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginRouter.swift; sourceTree = "<group>"; };
+		DE382F5025AB9A5700592287 /* LoginModule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginModule.swift; sourceTree = "<group>"; };
+		DE382F5525AB9BA600592287 /* LoginInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginInteractor.swift; sourceTree = "<group>"; };
+		DE382F5B25AB9C3600592287 /* SessionManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SessionManager.swift; sourceTree = "<group>"; };
+		DE382F6625ABAA4300592287 /* RegisterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterView.swift; sourceTree = "<group>"; };
+		DE382F6A25ABAA5000592287 /* RegisterViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewModel.swift; sourceTree = "<group>"; };
+		DE382F6E25ABAA5A00592287 /* RegisterRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterRouter.swift; sourceTree = "<group>"; };
+		DE382F7225ABAA6400592287 /* RegisterInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterInteractor.swift; sourceTree = "<group>"; };
+		DE382F7625ABAA6F00592287 /* RegisterModule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterModule.swift; sourceTree = "<group>"; };
+		DE382F9425ABC20800592287 /* HomeModule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeModule.swift; sourceTree = "<group>"; };
+		DE382F9825ABC21100592287 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		DE382F9C25ABC21A00592287 /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
+		DE382FA025ABC22200592287 /* HomeRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeRouter.swift; sourceTree = "<group>"; };
+		DE382FA425ABC23200592287 /* HomeInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeInteractor.swift; sourceTree = "<group>"; };
+		DE382FAE25AC7A9C00592287 /* AccountModule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountModule.swift; sourceTree = "<group>"; };
+		DE382FB425AC7AAB00592287 /* AccountView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountView.swift; sourceTree = "<group>"; };
+		DE382FB825AC7AB700592287 /* AccountViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountViewModel.swift; sourceTree = "<group>"; };
+		DE382FBD25AC7AC700592287 /* AccountRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountRouter.swift; sourceTree = "<group>"; };
+		DE382FC125AC7AD100592287 /* AccountInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountInteractor.swift; sourceTree = "<group>"; };
+		DE382FE325AC932000592287 /* DepositModule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DepositModule.swift; sourceTree = "<group>"; };
+		DE382FEF25ACD25E00592287 /* DepositInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DepositInteractor.swift; sourceTree = "<group>"; };
+		DE382FF325ACD26600592287 /* DepositRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DepositRouter.swift; sourceTree = "<group>"; };
+		DE382FF725ACD27100592287 /* DepositViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DepositViewModel.swift; sourceTree = "<group>"; };
+		DE382FFB25ACD27B00592287 /* DepositView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DepositView.swift; sourceTree = "<group>"; };
+		DE38300425ACD2E400592287 /* WithdrawModule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WithdrawModule.swift; sourceTree = "<group>"; };
+		DE38300A25ACD2F800592287 /* WithdrawInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WithdrawInteractor.swift; sourceTree = "<group>"; };
+		DE38300E25ACD30D00592287 /* WithdrawView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WithdrawView.swift; sourceTree = "<group>"; };
+		DE38301225ACD31800592287 /* WithdrawViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WithdrawViewModel.swift; sourceTree = "<group>"; };
+		DE38301625ACD32500592287 /* WithdrawRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WithdrawRouter.swift; sourceTree = "<group>"; };
+		DE38301A25ACE91F00592287 /* Observable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Observable.swift; sourceTree = "<group>"; };
+		DE38302B25ADDBF600592287 /* TestsTransfer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestsTransfer.swift; sourceTree = "<group>"; };
+		DE38303525ADE3B200592287 /* TransferModule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransferModule.swift; sourceTree = "<group>"; };
+		DE38303925ADE3BE00592287 /* TransferView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransferView.swift; sourceTree = "<group>"; };
+		DE38303D25ADE3C600592287 /* TransferViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransferViewModel.swift; sourceTree = "<group>"; };
+		DE38304125ADE3CE00592287 /* TransferRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransferRouter.swift; sourceTree = "<group>"; };
+		DE38304525ADE3D700592287 /* TransferInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransferInteractor.swift; sourceTree = "<group>"; };
+		DE38304A25AE0D1D00592287 /* Transfer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Transfer.swift; sourceTree = "<group>"; };
+		DEA27B3325A787D600484C83 /* TestsAccount.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestsAccount.swift; sourceTree = "<group>"; };
+		DEA27B6A25A8F1ED00484C83 /* TestsValidators.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestsValidators.swift; sourceTree = "<group>"; };
+		DEBF49BC25B87FAC001B0C45 /* TestDepositInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestDepositInteractor.swift; sourceTree = "<group>"; };
+		DEDDCB1B25AB4012003A8A5F /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		DEDDCB2125AB4218003A8A5F /* LoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
+		DEDDCB2725AB4346003A8A5F /* UIView+extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+extension.swift"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		607FACCD1AFB9204008FA782 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				56F1F4B531F19A966746F12E /* Pods_VeritranSDK_Example.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		607FACE21AFB9204008FA782 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B6CD41A70615DF294638039C /* Pods_VeritranSDK_Tests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		607FACC71AFB9204008FA782 = {
+			isa = PBXGroup;
+			children = (
+				607FACF51AFB993E008FA782 /* Podspec Metadata */,
+				607FACD21AFB9204008FA782 /* Example for VeritranSDK */,
+				607FACE81AFB9204008FA782 /* Tests */,
+				607FACD11AFB9204008FA782 /* Products */,
+				CC7F790EF7BDE457863E0BA2 /* Pods */,
+				E539DBD8CEDD8C3A8460B0F2 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		607FACD11AFB9204008FA782 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				607FACD01AFB9204008FA782 /* VeritranSDK_Example.app */,
+				607FACE51AFB9204008FA782 /* VeritranSDK_Tests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		607FACD21AFB9204008FA782 /* Example for VeritranSDK */ = {
+			isa = PBXGroup;
+			children = (
+				DE38302F25ADE2C000592287 /* Transfer */,
+				DE382FFF25ACD2B600592287 /* Withdraw */,
+				DE382FE225AC931200592287 /* Deposit */,
+				DE382FA825AC7A6900592287 /* Account */,
+				DE382F8E25ABC14000592287 /* Home */,
+				DE382F6125ABA9B000592287 /* Register */,
+				DEDDCB1925AB3FD9003A8A5F /* Login */,
+				607FACD51AFB9204008FA782 /* AppDelegate.swift */,
+				607FACDE1AFB9204008FA782 /* LaunchScreen.xib */,
+				607FACD31AFB9204008FA782 /* Supporting Files */,
+				DE382F5B25AB9C3600592287 /* SessionManager.swift */,
+			);
+			name = "Example for VeritranSDK";
+			path = VeritranSDK;
+			sourceTree = "<group>";
+		};
+		607FACD31AFB9204008FA782 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				607FACDC1AFB9204008FA782 /* Images.xcassets */,
+				DEDDCB2625AB4325003A8A5F /* Utils */,
+				607FACD41AFB9204008FA782 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		607FACE81AFB9204008FA782 /* Tests */ = {
+			isa = PBXGroup;
+			children = (
+				607FACEB1AFB9204008FA782 /* TestsUser.swift */,
+				DEA27B3325A787D600484C83 /* TestsAccount.swift */,
+				DEA27B6A25A8F1ED00484C83 /* TestsValidators.swift */,
+				DE38302B25ADDBF600592287 /* TestsTransfer.swift */,
+				607FACE91AFB9204008FA782 /* Supporting Files */,
+				DEBF49BC25B87FAC001B0C45 /* TestDepositInteractor.swift */,
+			);
+			path = Tests;
+			sourceTree = "<group>";
+		};
+		607FACE91AFB9204008FA782 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				607FACEA1AFB9204008FA782 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		607FACF51AFB993E008FA782 /* Podspec Metadata */ = {
+			isa = PBXGroup;
+			children = (
+				B44527066DF2E51D75A5FD90 /* VeritranSDK.podspec */,
+				382D3B7FCDD1638E4236F4C6 /* README.md */,
+				8ADE408AA34BE6964F21C247 /* LICENSE */,
+			);
+			name = "Podspec Metadata";
+			sourceTree = "<group>";
+		};
+		CC7F790EF7BDE457863E0BA2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8D2D5189AD6DF8407BA8E97A /* Pods-VeritranSDK_Example.debug.xcconfig */,
+				D9D26EB81FB3D3D1F39C63A1 /* Pods-VeritranSDK_Example.release.xcconfig */,
+				B07597B5A79EED4F84F32877 /* Pods-VeritranSDK_Tests.debug.xcconfig */,
+				BFBC6AA846075BF7CC08B6DC /* Pods-VeritranSDK_Tests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		DE382F4B25AB98BC00592287 /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				DE382F4C25AB98CD00592287 /* LoginRouter.swift */,
+			);
+			name = Router;
+			sourceTree = "<group>";
+		};
+		DE382F5425AB9B9800592287 /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+				DE382F5525AB9BA600592287 /* LoginInteractor.swift */,
+			);
+			name = Interactor;
+			sourceTree = "<group>";
+		};
+		DE382F6125ABA9B000592287 /* Register */ = {
+			isa = PBXGroup;
+			children = (
+				DE382F6525ABAA3500592287 /* Interactor */,
+				DE382F6425ABAA3000592287 /* Router */,
+				DE382F6325ABAA2A00592287 /* ViewModel */,
+				DE382F6225ABAA2200592287 /* View */,
+				DE382F7625ABAA6F00592287 /* RegisterModule.swift */,
+			);
+			name = Register;
+			sourceTree = "<group>";
+		};
+		DE382F6225ABAA2200592287 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				DE382F6625ABAA4300592287 /* RegisterView.swift */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		DE382F6325ABAA2A00592287 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				DE382F6A25ABAA5000592287 /* RegisterViewModel.swift */,
+			);
+			name = ViewModel;
+			sourceTree = "<group>";
+		};
+		DE382F6425ABAA3000592287 /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				DE382F6E25ABAA5A00592287 /* RegisterRouter.swift */,
+			);
+			name = Router;
+			sourceTree = "<group>";
+		};
+		DE382F6525ABAA3500592287 /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+				DE382F7225ABAA6400592287 /* RegisterInteractor.swift */,
+			);
+			name = Interactor;
+			sourceTree = "<group>";
+		};
+		DE382F8E25ABC14000592287 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				DE382F9225ABC1F500592287 /* Interactor */,
+				DE382F9125ABC1EA00592287 /* Router */,
+				DE382F9025ABC1DA00592287 /* ViewModel */,
+				DE382F8F25ABC1D500592287 /* View */,
+				DE382F9425ABC20800592287 /* HomeModule.swift */,
+			);
+			name = Home;
+			sourceTree = "<group>";
+		};
+		DE382F8F25ABC1D500592287 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				DE382F9825ABC21100592287 /* HomeView.swift */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		DE382F9025ABC1DA00592287 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				DE382F9C25ABC21A00592287 /* HomeViewModel.swift */,
+			);
+			name = ViewModel;
+			sourceTree = "<group>";
+		};
+		DE382F9125ABC1EA00592287 /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				DE382FA025ABC22200592287 /* HomeRouter.swift */,
+			);
+			name = Router;
+			sourceTree = "<group>";
+		};
+		DE382F9225ABC1F500592287 /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+				DE382FA425ABC23200592287 /* HomeInteractor.swift */,
+			);
+			name = Interactor;
+			sourceTree = "<group>";
+		};
+		DE382FA825AC7A6900592287 /* Account */ = {
+			isa = PBXGroup;
+			children = (
+				DE382FAC25AC7A8600592287 /* Interactor */,
+				DE382FAB25AC7A8000592287 /* Router */,
+				DE382FAA25AC7A7B00592287 /* ViewModel */,
+				DE382FA925AC7A7700592287 /* View */,
+				DE382FAE25AC7A9C00592287 /* AccountModule.swift */,
+			);
+			name = Account;
+			sourceTree = "<group>";
+		};
+		DE382FA925AC7A7700592287 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				DE382FB425AC7AAB00592287 /* AccountView.swift */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		DE382FAA25AC7A7B00592287 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				DE382FB825AC7AB700592287 /* AccountViewModel.swift */,
+			);
+			name = ViewModel;
+			sourceTree = "<group>";
+		};
+		DE382FAB25AC7A8000592287 /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				DE382FBD25AC7AC700592287 /* AccountRouter.swift */,
+			);
+			name = Router;
+			sourceTree = "<group>";
+		};
+		DE382FAC25AC7A8600592287 /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+				DE382FC125AC7AD100592287 /* AccountInteractor.swift */,
+			);
+			name = Interactor;
+			sourceTree = "<group>";
+		};
+		DE382FE225AC931200592287 /* Deposit */ = {
+			isa = PBXGroup;
+			children = (
+				DE382FEC25AC9A0A00592287 /* Interactor */,
+				DE382FE925AC933200592287 /* Router */,
+				DE382FE825AC932D00592287 /* ViewModel */,
+				DE382FE725AC932600592287 /* View */,
+				DE382FE325AC932000592287 /* DepositModule.swift */,
+			);
+			name = Deposit;
+			sourceTree = "<group>";
+		};
+		DE382FE725AC932600592287 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				DE382FFB25ACD27B00592287 /* DepositView.swift */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		DE382FE825AC932D00592287 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				DE382FF725ACD27100592287 /* DepositViewModel.swift */,
+			);
+			name = ViewModel;
+			sourceTree = "<group>";
+		};
+		DE382FE925AC933200592287 /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				DE382FF325ACD26600592287 /* DepositRouter.swift */,
+			);
+			name = Router;
+			sourceTree = "<group>";
+		};
+		DE382FEC25AC9A0A00592287 /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+				DE382FEF25ACD25E00592287 /* DepositInteractor.swift */,
+			);
+			name = Interactor;
+			sourceTree = "<group>";
+		};
+		DE382FFF25ACD2B600592287 /* Withdraw */ = {
+			isa = PBXGroup;
+			children = (
+				DE38300325ACD2CF00592287 /* Interactor */,
+				DE38300225ACD2C600592287 /* Router */,
+				DE38300125ACD2C100592287 /* ViewModel */,
+				DE38300025ACD2BD00592287 /* View */,
+				DE38300425ACD2E400592287 /* WithdrawModule.swift */,
+			);
+			name = Withdraw;
+			sourceTree = "<group>";
+		};
+		DE38300025ACD2BD00592287 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				DE38300E25ACD30D00592287 /* WithdrawView.swift */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		DE38300125ACD2C100592287 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				DE38301225ACD31800592287 /* WithdrawViewModel.swift */,
+			);
+			name = ViewModel;
+			sourceTree = "<group>";
+		};
+		DE38300225ACD2C600592287 /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				DE38301625ACD32500592287 /* WithdrawRouter.swift */,
+			);
+			name = Router;
+			sourceTree = "<group>";
+		};
+		DE38300325ACD2CF00592287 /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+				DE38300A25ACD2F800592287 /* WithdrawInteractor.swift */,
+			);
+			name = Interactor;
+			sourceTree = "<group>";
+		};
+		DE38302F25ADE2C000592287 /* Transfer */ = {
+			isa = PBXGroup;
+			children = (
+				DE38304925AE0D1300592287 /* Model */,
+				DE38303325ADE38C00592287 /* Interactor */,
+				DE38303225ADE38600592287 /* Router */,
+				DE38303125ADE37B00592287 /* ViewModel */,
+				DE38303025ADE37600592287 /* View */,
+				DE38303525ADE3B200592287 /* TransferModule.swift */,
+			);
+			name = Transfer;
+			sourceTree = "<group>";
+		};
+		DE38303025ADE37600592287 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				DE38303925ADE3BE00592287 /* TransferView.swift */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		DE38303125ADE37B00592287 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				DE38303D25ADE3C600592287 /* TransferViewModel.swift */,
+			);
+			name = ViewModel;
+			sourceTree = "<group>";
+		};
+		DE38303225ADE38600592287 /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				DE38304125ADE3CE00592287 /* TransferRouter.swift */,
+			);
+			name = Router;
+			sourceTree = "<group>";
+		};
+		DE38303325ADE38C00592287 /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+				DE38304525ADE3D700592287 /* TransferInteractor.swift */,
+			);
+			name = Interactor;
+			sourceTree = "<group>";
+		};
+		DE38304925AE0D1300592287 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				DE38304A25AE0D1D00592287 /* Transfer.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		DEDDCB1925AB3FD9003A8A5F /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				DE382F5425AB9B9800592287 /* Interactor */,
+				DE382F4B25AB98BC00592287 /* Router */,
+				DEDDCB2525AB4275003A8A5F /* ViewModel */,
+				DEDDCB1A25AB4002003A8A5F /* View */,
+				DE382F5025AB9A5700592287 /* LoginModule.swift */,
+			);
+			name = Login;
+			sourceTree = "<group>";
+		};
+		DEDDCB1A25AB4002003A8A5F /* View */ = {
+			isa = PBXGroup;
+			children = (
+				DEDDCB1B25AB4012003A8A5F /* LoginView.swift */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		DEDDCB2525AB4275003A8A5F /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				DEDDCB2125AB4218003A8A5F /* LoginViewModel.swift */,
+			);
+			name = ViewModel;
+			sourceTree = "<group>";
+		};
+		DEDDCB2625AB4325003A8A5F /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				DEDDCB2725AB4346003A8A5F /* UIView+extension.swift */,
+				DE382F4225AB589C00592287 /* Colors.swift */,
+				DE38301A25ACE91F00592287 /* Observable.swift */,
+			);
+			name = Utils;
+			sourceTree = "<group>";
+		};
+		E539DBD8CEDD8C3A8460B0F2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				087BAFCDEF2B810B9B948AE8 /* Pods_VeritranSDK_Example.framework */,
+				ADC4B0FFA7B28962B3504751 /* Pods_VeritranSDK_Tests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		607FACCF1AFB9204008FA782 /* VeritranSDK_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 607FACEF1AFB9204008FA782 /* Build configuration list for PBXNativeTarget "VeritranSDK_Example" */;
+			buildPhases = (
+				DA442D7E3493B6B6AA50CA18 /* [CP] Check Pods Manifest.lock */,
+				607FACCC1AFB9204008FA782 /* Sources */,
+				607FACCD1AFB9204008FA782 /* Frameworks */,
+				607FACCE1AFB9204008FA782 /* Resources */,
+				013360C687A034239D46F34D /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VeritranSDK_Example;
+			productName = VeritranSDK;
+			productReference = 607FACD01AFB9204008FA782 /* VeritranSDK_Example.app */;
+			productType = "com.apple.product-type.application";
+		};
+		607FACE41AFB9204008FA782 /* VeritranSDK_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 607FACF21AFB9204008FA782 /* Build configuration list for PBXNativeTarget "VeritranSDK_Tests" */;
+			buildPhases = (
+				19AE78D4FC1680FEBB43E45A /* [CP] Check Pods Manifest.lock */,
+				607FACE11AFB9204008FA782 /* Sources */,
+				607FACE21AFB9204008FA782 /* Frameworks */,
+				607FACE31AFB9204008FA782 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				607FACE71AFB9204008FA782 /* PBXTargetDependency */,
+			);
+			name = VeritranSDK_Tests;
+			productName = Tests;
+			productReference = 607FACE51AFB9204008FA782 /* VeritranSDK_Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		607FACC81AFB9204008FA782 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 1220;
+				ORGANIZATIONNAME = CocoaPods;
+				TargetAttributes = {
+					607FACCF1AFB9204008FA782 = {
+						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = 764KTSPS7C;
+						LastSwiftMigration = 1220;
+					};
+					607FACE41AFB9204008FA782 = {
+						CreatedOnToolsVersion = 6.3.1;
+						LastSwiftMigration = 1220;
+						TestTargetID = 607FACCF1AFB9204008FA782;
+					};
+				};
+			};
+			buildConfigurationList = 607FACCB1AFB9204008FA782 /* Build configuration list for PBXProject "VeritranSDK" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 607FACC71AFB9204008FA782;
+			productRefGroup = 607FACD11AFB9204008FA782 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				607FACCF1AFB9204008FA782 /* VeritranSDK_Example */,
+				607FACE41AFB9204008FA782 /* VeritranSDK_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		607FACCE1AFB9204008FA782 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */,
+				607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		607FACE31AFB9204008FA782 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		013360C687A034239D46F34D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-VeritranSDK_Example/Pods-VeritranSDK_Example-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/VeritranSDK/VeritranSDK.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/VeritranSDK.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-VeritranSDK_Example/Pods-VeritranSDK_Example-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		19AE78D4FC1680FEBB43E45A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-VeritranSDK_Tests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DA442D7E3493B6B6AA50CA18 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-VeritranSDK_Example-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		607FACCC1AFB9204008FA782 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE38303A25ADE3BE00592287 /* TransferView.swift in Sources */,
+				DE38303E25ADE3C600592287 /* TransferViewModel.swift in Sources */,
+				DE38300B25ACD2F800592287 /* WithdrawInteractor.swift in Sources */,
+				DE382FF425ACD26600592287 /* DepositRouter.swift in Sources */,
+				DE38301725ACD32500592287 /* WithdrawRouter.swift in Sources */,
+				DE382F9D25ABC21A00592287 /* HomeViewModel.swift in Sources */,
+				DE382FA525ABC23200592287 /* HomeInteractor.swift in Sources */,
+				DE382FC225AC7AD100592287 /* AccountInteractor.swift in Sources */,
+				DE382F7725ABAA6F00592287 /* RegisterModule.swift in Sources */,
+				DEDDCB2225AB4218003A8A5F /* LoginViewModel.swift in Sources */,
+				DE382F6725ABAA4300592287 /* RegisterView.swift in Sources */,
+				DE38300525ACD2E400592287 /* WithdrawModule.swift in Sources */,
+				DE382FFC25ACD27B00592287 /* DepositView.swift in Sources */,
+				DE382F4325AB589C00592287 /* Colors.swift in Sources */,
+				DE382F4D25AB98CD00592287 /* LoginRouter.swift in Sources */,
+				DE382F6B25ABAA5000592287 /* RegisterViewModel.swift in Sources */,
+				DE38303625ADE3B200592287 /* TransferModule.swift in Sources */,
+				DE382FA125ABC22200592287 /* HomeRouter.swift in Sources */,
+				DE382F6F25ABAA5A00592287 /* RegisterRouter.swift in Sources */,
+				DE38304625ADE3D700592287 /* TransferInteractor.swift in Sources */,
+				DE382F5125AB9A5700592287 /* LoginModule.swift in Sources */,
+				DE382FE425AC932000592287 /* DepositModule.swift in Sources */,
+				DE382F5625AB9BA600592287 /* LoginInteractor.swift in Sources */,
+				DE38300F25ACD30D00592287 /* WithdrawView.swift in Sources */,
+				DE382FBE25AC7AC700592287 /* AccountRouter.swift in Sources */,
+				DEDDCB2825AB4346003A8A5F /* UIView+extension.swift in Sources */,
+				DE382FAF25AC7A9C00592287 /* AccountModule.swift in Sources */,
+				DE382F5C25AB9C3600592287 /* SessionManager.swift in Sources */,
+				DE382F7325ABAA6400592287 /* RegisterInteractor.swift in Sources */,
+				DE38304B25AE0D1D00592287 /* Transfer.swift in Sources */,
+				DE382FB925AC7AB700592287 /* AccountViewModel.swift in Sources */,
+				DE382F9525ABC20800592287 /* HomeModule.swift in Sources */,
+				DE382FF025ACD25E00592287 /* DepositInteractor.swift in Sources */,
+				DE382F9925ABC21100592287 /* HomeView.swift in Sources */,
+				DE382FB525AC7AAB00592287 /* AccountView.swift in Sources */,
+				DE382FF825ACD27100592287 /* DepositViewModel.swift in Sources */,
+				DE38301B25ACE91F00592287 /* Observable.swift in Sources */,
+				DE38301325ACD31800592287 /* WithdrawViewModel.swift in Sources */,
+				DEDDCB1C25AB4012003A8A5F /* LoginView.swift in Sources */,
+				607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */,
+				DE38304225ADE3CE00592287 /* TransferRouter.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		607FACE11AFB9204008FA782 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				607FACEC1AFB9204008FA782 /* TestsUser.swift in Sources */,
+				DEA27B3425A787D600484C83 /* TestsAccount.swift in Sources */,
+				DE38302C25ADDBF600592287 /* TestsTransfer.swift in Sources */,
+				DEBF49C525B88139001B0C45 /* DepositInteractor.swift in Sources */,
+				DEA27B6B25A8F1ED00484C83 /* TestsValidators.swift in Sources */,
+				DEBF49BD25B87FAC001B0C45 /* TestDepositInteractor.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		607FACE71AFB9204008FA782 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 607FACCF1AFB9204008FA782 /* VeritranSDK_Example */;
+			targetProxy = 607FACE61AFB9204008FA782 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		607FACDE1AFB9204008FA782 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				607FACDF1AFB9204008FA782 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		607FACED1AFB9204008FA782 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		607FACEE1AFB9204008FA782 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		607FACF01AFB9204008FA782 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8D2D5189AD6DF8407BA8E97A /* Pods-VeritranSDK_Example.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 764KTSPS7C;
+				INFOPLIST_FILE = VeritranSDK/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				MODULE_NAME = ExampleApp;
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		607FACF11AFB9204008FA782 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D9D26EB81FB3D3D1F39C63A1 /* Pods-VeritranSDK_Example.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 764KTSPS7C;
+				INFOPLIST_FILE = VeritranSDK/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				MODULE_NAME = ExampleApp;
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		607FACF31AFB9204008FA782 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B07597B5A79EED4F84F32877 /* Pods-VeritranSDK_Tests.debug.xcconfig */;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VeritranSDK_Example.app/VeritranSDK_Example";
+			};
+			name = Debug;
+		};
+		607FACF41AFB9204008FA782 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BFBC6AA846075BF7CC08B6DC /* Pods-VeritranSDK_Tests.release.xcconfig */;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VeritranSDK_Example.app/VeritranSDK_Example";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		607FACCB1AFB9204008FA782 /* Build configuration list for PBXProject "VeritranSDK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				607FACED1AFB9204008FA782 /* Debug */,
+				607FACEE1AFB9204008FA782 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		607FACEF1AFB9204008FA782 /* Build configuration list for PBXNativeTarget "VeritranSDK_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				607FACF01AFB9204008FA782 /* Debug */,
+				607FACF11AFB9204008FA782 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		607FACF21AFB9204008FA782 /* Build configuration list for PBXNativeTarget "VeritranSDK_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				607FACF31AFB9204008FA782 /* Debug */,
+				607FACF41AFB9204008FA782 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 607FACC81AFB9204008FA782 /* Project object */;
+}

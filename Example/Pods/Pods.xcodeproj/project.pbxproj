@@ -1,0 +1,823 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0B8FA5310EEAA424FAF547D3AFC8756C /* Account.swift in Sources */ = {isa = PBXBuildFile; fileRef = D89B7E2385456079DDAF432C86F9802A /* Account.swift */; };
+		0BB294DE035F43F51CE5B06F7F77184A /* Pods-VeritranSDK_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 38D9A15073C9D9618299E2E55AA3E194 /* Pods-VeritranSDK_Tests-dummy.m */; };
+		146BCD5AB12B3804BE568EAA60BEC1C1 /* UserApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AE3F33CCE53F81296EC07A7BD554ECC /* UserApi.swift */; };
+		1D60E771B697AF4660885E65DCFE8AFD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		2461B527DF96054A31E8477A7ACDCC32 /* AmmountError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EDDA6FADD8C657BDCD5B1CA416B9850 /* AmmountError.swift */; };
+		2D8AEF6726DF1BA9F7F155C315DC37F0 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = C53065B06B34FF6FF3FEB7C4102FA0FE /* User.swift */; };
+		31C683C70DB5817DB3CB10621570D6C2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		3D4CCFCE2900F58ADAFBCEFFD224E486 /* Pods-VeritranSDK_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 78767B95A87BCD07DA91D028D9467191 /* Pods-VeritranSDK_Example-dummy.m */; };
+		481CD0C8BFED19FA886D0DA5AEF4DF29 /* Pods-VeritranSDK_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = AEC08C8E7EC5E4A1EC25AE30602E4122 /* Pods-VeritranSDK_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6DA8B828CF1AA5EB17BA47DD1E35B0B9 /* Pods-VeritranSDK_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = AA2CA0B4ED960C528417B42FD70A0CA9 /* Pods-VeritranSDK_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8D14C35231F3D5F392E3DE7E42ECA774 /* Validators.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C54A8B8AE1F023A49BED7D70982E7CE /* Validators.swift */; };
+		CC0519FD38B08C11E33473365DA7ED32 /* VeritranSDK-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A92DF4BDE4BDC46A8CD649358219DE71 /* VeritranSDK-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E4E1801903299BAE3206EB10BAB5FD9F /* VeritranSDK-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CA8EA66B0ABAB686E9A214F35AD14B5 /* VeritranSDK-dummy.m */; };
+		EF34A95777A0DA346B12CA17B3C1F55F /* VeritranSDK.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2172954FF065CEFAF3FA9B9134548184 /* VeritranSDK.swift */; };
+		F924101CCD42AD3AE2417FD6E7A81674 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		FF59C6A4DDAC3D6094949B63A5BFFFCE /* Currency.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F643265864C88F2EE970B5F2B7ED808 /* Currency.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		83A57CA5DB2CEE59D97AAB8388C6FF9D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 312E9D0A0F770065BF39BDE5D7FA8572;
+			remoteInfo = "Pods-VeritranSDK_Example";
+		};
+		8FFD466E53E22EFE3225B21E111B6D04 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 221538C65C0F1FF45E830BF372666525;
+			remoteInfo = VeritranSDK;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		088B6D2D622A465A358E891DB34CCCCD /* VeritranSDK-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "VeritranSDK-Info.plist"; sourceTree = "<group>"; };
+		19FD83F0917930656DC8A401E55C094D /* VeritranSDK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = VeritranSDK.framework; path = VeritranSDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1EF7929C5E1FEF0DBF7BA631FC568309 /* Pods-VeritranSDK_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-VeritranSDK_Example.modulemap"; sourceTree = "<group>"; };
+		2172954FF065CEFAF3FA9B9134548184 /* VeritranSDK.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = VeritranSDK.swift; path = VeritranSDK/Classes/VeritranSDK.swift; sourceTree = "<group>"; };
+		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		34A7F4B2CE4D3FAF5E47EAD3908BF463 /* VeritranSDK.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = VeritranSDK.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		36FC8C79DA904F1EDE809EA1AB91B6CC /* Pods-VeritranSDK_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-VeritranSDK_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		38D9A15073C9D9618299E2E55AA3E194 /* Pods-VeritranSDK_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-VeritranSDK_Tests-dummy.m"; sourceTree = "<group>"; };
+		3CA8EA66B0ABAB686E9A214F35AD14B5 /* VeritranSDK-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "VeritranSDK-dummy.m"; sourceTree = "<group>"; };
+		441D15BC76A09419CFBE3F81EB90EB25 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		4C54A8B8AE1F023A49BED7D70982E7CE /* Validators.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Validators.swift; sourceTree = "<group>"; };
+		4F643265864C88F2EE970B5F2B7ED808 /* Currency.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Currency.swift; sourceTree = "<group>"; };
+		592DFD1A4E0C258DB3F773068DD87922 /* Pods-VeritranSDK_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-VeritranSDK_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		5B3D0A1134A25830E3159B3F4E05424F /* Pods-VeritranSDK_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-VeritranSDK_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		6334DBCB791A5B12CBF95B41253E1C69 /* Pods-VeritranSDK_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-VeritranSDK_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		704C08F4A81264211BC73772844437A4 /* Pods-VeritranSDK_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-VeritranSDK_Example-frameworks.sh"; sourceTree = "<group>"; };
+		71DB35D5133E458D1B575DD179F68526 /* Pods-VeritranSDK_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-VeritranSDK_Example.release.xcconfig"; sourceTree = "<group>"; };
+		78767B95A87BCD07DA91D028D9467191 /* Pods-VeritranSDK_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-VeritranSDK_Example-dummy.m"; sourceTree = "<group>"; };
+		797454E6877B95BE9ADF65AEF3E6AE45 /* VeritranSDK.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = VeritranSDK.modulemap; sourceTree = "<group>"; };
+		7EDDA6FADD8C657BDCD5B1CA416B9850 /* AmmountError.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AmmountError.swift; sourceTree = "<group>"; };
+		8AE3F33CCE53F81296EC07A7BD554ECC /* UserApi.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = UserApi.swift; sourceTree = "<group>"; };
+		8C97215F928CBC99F3B0E4B1192FADE2 /* Pods_VeritranSDK_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_VeritranSDK_Tests.framework; path = "Pods-VeritranSDK_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		90214C5D7A1B03D218E1C6E2F35B6BF3 /* Pods-VeritranSDK_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-VeritranSDK_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		95D80BFC9D3818522661CA1C59DA7609 /* Pods-VeritranSDK_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-VeritranSDK_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		9C57086B6F786C53C61DD54E2CD74E7B /* Pods-VeritranSDK_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-VeritranSDK_Tests.modulemap"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9FF6F017668D4690B5E17D2D9F7B0256 /* Pods_VeritranSDK_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_VeritranSDK_Example.framework; path = "Pods-VeritranSDK_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A92DF4BDE4BDC46A8CD649358219DE71 /* VeritranSDK-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "VeritranSDK-umbrella.h"; sourceTree = "<group>"; };
+		AA2CA0B4ED960C528417B42FD70A0CA9 /* Pods-VeritranSDK_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-VeritranSDK_Example-umbrella.h"; sourceTree = "<group>"; };
+		AADEBF647072EAFC640284C757BB2A8D /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		AEC08C8E7EC5E4A1EC25AE30602E4122 /* Pods-VeritranSDK_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-VeritranSDK_Tests-umbrella.h"; sourceTree = "<group>"; };
+		BCD47D6253B4583195909328FF4E3933 /* Pods-VeritranSDK_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-VeritranSDK_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		C53065B06B34FF6FF3FEB7C4102FA0FE /* User.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		C709C6AF79235C89EEA44F137783215B /* Pods-VeritranSDK_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-VeritranSDK_Example-Info.plist"; sourceTree = "<group>"; };
+		CEE4168F13D27661C720C67EFA8E966D /* Pods-VeritranSDK_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-VeritranSDK_Tests-Info.plist"; sourceTree = "<group>"; };
+		D89B7E2385456079DDAF432C86F9802A /* Account.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Account.swift; sourceTree = "<group>"; };
+		E9EA8DBEFFCAD7EBE7E0C540E4CCBA95 /* VeritranSDK.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = VeritranSDK.release.xcconfig; sourceTree = "<group>"; };
+		EF8020A1533929937C105010B08E70A8 /* VeritranSDK.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = VeritranSDK.debug.xcconfig; sourceTree = "<group>"; };
+		F1FD3760DDF9B4263AAC067C3A0D9A96 /* VeritranSDK-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "VeritranSDK-prefix.pch"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1120A51B7D505207B00BF8C5C46A328A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F924101CCD42AD3AE2417FD6E7A81674 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6E4F214A5E5C2A55F255EC8F6E2D9C74 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				31C683C70DB5817DB3CB10621570D6C2 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8AE47756F0D869DD50313C3AA831847D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60E771B697AF4660885E65DCFE8AFD /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		022E76133CC0D11ADEBEDF8E024BC958 /* Pods-VeritranSDK_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				9C57086B6F786C53C61DD54E2CD74E7B /* Pods-VeritranSDK_Tests.modulemap */,
+				BCD47D6253B4583195909328FF4E3933 /* Pods-VeritranSDK_Tests-acknowledgements.markdown */,
+				592DFD1A4E0C258DB3F773068DD87922 /* Pods-VeritranSDK_Tests-acknowledgements.plist */,
+				38D9A15073C9D9618299E2E55AA3E194 /* Pods-VeritranSDK_Tests-dummy.m */,
+				CEE4168F13D27661C720C67EFA8E966D /* Pods-VeritranSDK_Tests-Info.plist */,
+				AEC08C8E7EC5E4A1EC25AE30602E4122 /* Pods-VeritranSDK_Tests-umbrella.h */,
+				95D80BFC9D3818522661CA1C59DA7609 /* Pods-VeritranSDK_Tests.debug.xcconfig */,
+				5B3D0A1134A25830E3159B3F4E05424F /* Pods-VeritranSDK_Tests.release.xcconfig */,
+			);
+			name = "Pods-VeritranSDK_Tests";
+			path = "Target Support Files/Pods-VeritranSDK_Tests";
+			sourceTree = "<group>";
+		};
+		4F0B19A033BFB5E971E1844549B3F530 /* Pods-VeritranSDK_Example */ = {
+			isa = PBXGroup;
+			children = (
+				1EF7929C5E1FEF0DBF7BA631FC568309 /* Pods-VeritranSDK_Example.modulemap */,
+				6334DBCB791A5B12CBF95B41253E1C69 /* Pods-VeritranSDK_Example-acknowledgements.markdown */,
+				36FC8C79DA904F1EDE809EA1AB91B6CC /* Pods-VeritranSDK_Example-acknowledgements.plist */,
+				78767B95A87BCD07DA91D028D9467191 /* Pods-VeritranSDK_Example-dummy.m */,
+				704C08F4A81264211BC73772844437A4 /* Pods-VeritranSDK_Example-frameworks.sh */,
+				C709C6AF79235C89EEA44F137783215B /* Pods-VeritranSDK_Example-Info.plist */,
+				AA2CA0B4ED960C528417B42FD70A0CA9 /* Pods-VeritranSDK_Example-umbrella.h */,
+				90214C5D7A1B03D218E1C6E2F35B6BF3 /* Pods-VeritranSDK_Example.debug.xcconfig */,
+				71DB35D5133E458D1B575DD179F68526 /* Pods-VeritranSDK_Example.release.xcconfig */,
+			);
+			name = "Pods-VeritranSDK_Example";
+			path = "Target Support Files/Pods-VeritranSDK_Example";
+			sourceTree = "<group>";
+		};
+		5A4229AD93B2FB3F79E22520CDB8D4BB /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				797454E6877B95BE9ADF65AEF3E6AE45 /* VeritranSDK.modulemap */,
+				3CA8EA66B0ABAB686E9A214F35AD14B5 /* VeritranSDK-dummy.m */,
+				088B6D2D622A465A358E891DB34CCCCD /* VeritranSDK-Info.plist */,
+				F1FD3760DDF9B4263AAC067C3A0D9A96 /* VeritranSDK-prefix.pch */,
+				A92DF4BDE4BDC46A8CD649358219DE71 /* VeritranSDK-umbrella.h */,
+				EF8020A1533929937C105010B08E70A8 /* VeritranSDK.debug.xcconfig */,
+				E9EA8DBEFFCAD7EBE7E0C540E4CCBA95 /* VeritranSDK.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/VeritranSDK";
+			sourceTree = "<group>";
+		};
+		7343B2F3BCD3D7B5540F679CD3D2ADF9 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				88E774BE580A9D1822D3C20FEF8C3D68 /* VeritranSDK */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		7C67CE875651821A2C346064DD9BEA1E /* API */ = {
+			isa = PBXGroup;
+			children = (
+				8AE3F33CCE53F81296EC07A7BD554ECC /* UserApi.swift */,
+			);
+			name = API;
+			path = VeritranSDK/Classes/API;
+			sourceTree = "<group>";
+		};
+		827AE8ECE36F2F46862850BFE38EF320 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9FF6F017668D4690B5E17D2D9F7B0256 /* Pods_VeritranSDK_Example.framework */,
+				8C97215F928CBC99F3B0E4B1192FADE2 /* Pods_VeritranSDK_Tests.framework */,
+				19FD83F0917930656DC8A401E55C094D /* VeritranSDK.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		88E774BE580A9D1822D3C20FEF8C3D68 /* VeritranSDK */ = {
+			isa = PBXGroup;
+			children = (
+				2172954FF065CEFAF3FA9B9134548184 /* VeritranSDK.swift */,
+				7C67CE875651821A2C346064DD9BEA1E /* API */,
+				913CFB61DD0D4D387A60A7609093FC7A /* Entities */,
+				E0DDCC7CEBD9A305099C093A45BABC52 /* Pod */,
+				5A4229AD93B2FB3F79E22520CDB8D4BB /* Support Files */,
+				8E2141926BAEA94379DB6DF43D8C190D /* Utils */,
+			);
+			name = VeritranSDK;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		8E2141926BAEA94379DB6DF43D8C190D /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				7EDDA6FADD8C657BDCD5B1CA416B9850 /* AmmountError.swift */,
+				4C54A8B8AE1F023A49BED7D70982E7CE /* Validators.swift */,
+			);
+			name = Utils;
+			path = VeritranSDK/Classes/Utils;
+			sourceTree = "<group>";
+		};
+		913CFB61DD0D4D387A60A7609093FC7A /* Entities */ = {
+			isa = PBXGroup;
+			children = (
+				D89B7E2385456079DDAF432C86F9802A /* Account.swift */,
+				4F643265864C88F2EE970B5F2B7ED808 /* Currency.swift */,
+				C53065B06B34FF6FF3FEB7C4102FA0FE /* User.swift */,
+			);
+			name = Entities;
+			path = VeritranSDK/Classes/Entities;
+			sourceTree = "<group>";
+		};
+		A581412F2D38F8700142D0A116092797 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				4F0B19A033BFB5E971E1844549B3F530 /* Pods-VeritranSDK_Example */,
+				022E76133CC0D11ADEBEDF8E024BC958 /* Pods-VeritranSDK_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				7343B2F3BCD3D7B5540F679CD3D2ADF9 /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				827AE8ECE36F2F46862850BFE38EF320 /* Products */,
+				A581412F2D38F8700142D0A116092797 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C0834CEBB1379A84116EF29F93051C60 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E0DDCC7CEBD9A305099C093A45BABC52 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				441D15BC76A09419CFBE3F81EB90EB25 /* LICENSE */,
+				AADEBF647072EAFC640284C757BB2A8D /* README.md */,
+				34A7F4B2CE4D3FAF5E47EAD3908BF463 /* VeritranSDK.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		0C361F9D7F96082787E31D13E8ED3682 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6DA8B828CF1AA5EB17BA47DD1E35B0B9 /* Pods-VeritranSDK_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		301F159D28850A20B89225DB1152FC97 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC0519FD38B08C11E33473365DA7ED32 /* VeritranSDK-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8D3C3BC515691F385D98C233A37C9BC6 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				481CD0C8BFED19FA886D0DA5AEF4DF29 /* Pods-VeritranSDK_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		221538C65C0F1FF45E830BF372666525 /* VeritranSDK */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C863F1F01DF3356F2C060C61A21BB6A1 /* Build configuration list for PBXNativeTarget "VeritranSDK" */;
+			buildPhases = (
+				301F159D28850A20B89225DB1152FC97 /* Headers */,
+				AD895B95DE2A8494EBD4236FF8EB58D5 /* Sources */,
+				6E4F214A5E5C2A55F255EC8F6E2D9C74 /* Frameworks */,
+				E032779FD5D5534E8C4F87E1F4239AA8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VeritranSDK;
+			productName = VeritranSDK;
+			productReference = 19FD83F0917930656DC8A401E55C094D /* VeritranSDK.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		312E9D0A0F770065BF39BDE5D7FA8572 /* Pods-VeritranSDK_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8FB056331F246C1C0CEAA4A23238C5FB /* Build configuration list for PBXNativeTarget "Pods-VeritranSDK_Example" */;
+			buildPhases = (
+				0C361F9D7F96082787E31D13E8ED3682 /* Headers */,
+				BCE07C4109495CE61C57E45D6F025D86 /* Sources */,
+				1120A51B7D505207B00BF8C5C46A328A /* Frameworks */,
+				DED27711DC1094B1D088D3B262B08538 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A10261CE5D3486D6BA530C1F50238077 /* PBXTargetDependency */,
+			);
+			name = "Pods-VeritranSDK_Example";
+			productName = "Pods-VeritranSDK_Example";
+			productReference = 9FF6F017668D4690B5E17D2D9F7B0256 /* Pods_VeritranSDK_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		FB43C4A415F536993E30C7DB061E5220 /* Pods-VeritranSDK_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1AEEF9AB93E2E62F8B82DCE621CFCA1B /* Build configuration list for PBXNativeTarget "Pods-VeritranSDK_Tests" */;
+			buildPhases = (
+				8D3C3BC515691F385D98C233A37C9BC6 /* Headers */,
+				D77095BB4FE0502A5D51D8D04A3839A0 /* Sources */,
+				8AE47756F0D869DD50313C3AA831847D /* Frameworks */,
+				76DAC629549D253B151ED044D78C406E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9E7B6E1711CCDB8EF77C9E634CF613BA /* PBXTargetDependency */,
+			);
+			name = "Pods-VeritranSDK_Tests";
+			productName = "Pods-VeritranSDK_Tests";
+			productReference = 8C97215F928CBC99F3B0E4B1192FADE2 /* Pods_VeritranSDK_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 827AE8ECE36F2F46862850BFE38EF320 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				312E9D0A0F770065BF39BDE5D7FA8572 /* Pods-VeritranSDK_Example */,
+				FB43C4A415F536993E30C7DB061E5220 /* Pods-VeritranSDK_Tests */,
+				221538C65C0F1FF45E830BF372666525 /* VeritranSDK */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		76DAC629549D253B151ED044D78C406E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DED27711DC1094B1D088D3B262B08538 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E032779FD5D5534E8C4F87E1F4239AA8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AD895B95DE2A8494EBD4236FF8EB58D5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0B8FA5310EEAA424FAF547D3AFC8756C /* Account.swift in Sources */,
+				2461B527DF96054A31E8477A7ACDCC32 /* AmmountError.swift in Sources */,
+				FF59C6A4DDAC3D6094949B63A5BFFFCE /* Currency.swift in Sources */,
+				2D8AEF6726DF1BA9F7F155C315DC37F0 /* User.swift in Sources */,
+				146BCD5AB12B3804BE568EAA60BEC1C1 /* UserApi.swift in Sources */,
+				8D14C35231F3D5F392E3DE7E42ECA774 /* Validators.swift in Sources */,
+				E4E1801903299BAE3206EB10BAB5FD9F /* VeritranSDK-dummy.m in Sources */,
+				EF34A95777A0DA346B12CA17B3C1F55F /* VeritranSDK.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BCE07C4109495CE61C57E45D6F025D86 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D4CCFCE2900F58ADAFBCEFFD224E486 /* Pods-VeritranSDK_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D77095BB4FE0502A5D51D8D04A3839A0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0BB294DE035F43F51CE5B06F7F77184A /* Pods-VeritranSDK_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9E7B6E1711CCDB8EF77C9E634CF613BA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-VeritranSDK_Example";
+			target = 312E9D0A0F770065BF39BDE5D7FA8572 /* Pods-VeritranSDK_Example */;
+			targetProxy = 83A57CA5DB2CEE59D97AAB8388C6FF9D /* PBXContainerItemProxy */;
+		};
+		A10261CE5D3486D6BA530C1F50238077 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = VeritranSDK;
+			target = 221538C65C0F1FF45E830BF372666525 /* VeritranSDK */;
+			targetProxy = 8FFD466E53E22EFE3225B21E111B6D04 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0722A847EEE99B58B5418F943553941D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EF8020A1533929937C105010B08E70A8 /* VeritranSDK.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/VeritranSDK/VeritranSDK-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/VeritranSDK/VeritranSDK-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/VeritranSDK/VeritranSDK.modulemap";
+				PRODUCT_MODULE_NAME = VeritranSDK;
+				PRODUCT_NAME = VeritranSDK;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		30BC43894C8DC98C9348B7AE5B580F7E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 90214C5D7A1B03D218E1C6E2F35B6BF3 /* Pods-VeritranSDK_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-VeritranSDK_Example/Pods-VeritranSDK_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-VeritranSDK_Example/Pods-VeritranSDK_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		55455E1535EC1DC8DF409F8AADEAB05A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 71DB35D5133E458D1B575DD179F68526 /* Pods-VeritranSDK_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-VeritranSDK_Example/Pods-VeritranSDK_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-VeritranSDK_Example/Pods-VeritranSDK_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		6DF60F7D8749DD224AE73A26F6D8778A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5B3D0A1134A25830E3159B3F4E05424F /* Pods-VeritranSDK_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-VeritranSDK_Tests/Pods-VeritranSDK_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-VeritranSDK_Tests/Pods-VeritranSDK_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		8F17DC3A99F99FBAD606CE6963886315 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		916E0404255105F480DC4950B7625F7A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		B14407CF74753ABD9A5015838589A1E8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E9EA8DBEFFCAD7EBE7E0C540E4CCBA95 /* VeritranSDK.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/VeritranSDK/VeritranSDK-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/VeritranSDK/VeritranSDK-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/VeritranSDK/VeritranSDK.modulemap";
+				PRODUCT_MODULE_NAME = VeritranSDK;
+				PRODUCT_NAME = VeritranSDK;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		BBBAD9A5BF1CA32114030C9E491F2344 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 95D80BFC9D3818522661CA1C59DA7609 /* Pods-VeritranSDK_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-VeritranSDK_Tests/Pods-VeritranSDK_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-VeritranSDK_Tests/Pods-VeritranSDK_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1AEEF9AB93E2E62F8B82DCE621CFCA1B /* Build configuration list for PBXNativeTarget "Pods-VeritranSDK_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BBBAD9A5BF1CA32114030C9E491F2344 /* Debug */,
+				6DF60F7D8749DD224AE73A26F6D8778A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				916E0404255105F480DC4950B7625F7A /* Debug */,
+				8F17DC3A99F99FBAD606CE6963886315 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8FB056331F246C1C0CEAA4A23238C5FB /* Build configuration list for PBXNativeTarget "Pods-VeritranSDK_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				30BC43894C8DC98C9348B7AE5B580F7E /* Debug */,
+				55455E1535EC1DC8DF409F8AADEAB05A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C863F1F01DF3356F2C060C61A21BB6A1 /* Build configuration list for PBXNativeTarget "VeritranSDK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0722A847EEE99B58B5418F943553941D /* Debug */,
+				B14407CF74753ABD9A5015838589A1E8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
